@@ -1,0 +1,126 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	width: 100%;
+	height: 100vh;
+	font-family: arial;
+	position: relative;
+}
+
+
+.insite-div {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 200px;
+	height: 180px;
+}
+
+.insite-div a {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 150px;
+	height: 65px;
+	background-color: #3330;
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	border: 1px solid #5CACEB;
+	font-size: 25px;
+	overflow: hidden;
+	transition: 0.8;
+}
+
+
+.a2 {
+	top: 100px;
+}
+
+.insite-div a span {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	color: #5CACEB;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	transition: 0.3s;
+}
+.insite-div .a1 span {
+	color: #fff;
+	padding: 18px 35px;
+}
+
+.bg-color-div-1 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	background-color: #5CACEB;
+	z-index: 1;
+	transition: 0.3s;
+}
+
+.bg-color-div-2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: -65px;
+	border-radius: 50%;
+	background-color: #5CACEB;
+	z-index: 1;
+	transition: 0.3s;
+}
+
+/*
+.a1:hover .bg-color-div-1 {
+	border-radius: 50%;
+	top: 65px;
+}
+
+.a2:hover .bg-color-div-2 {
+	top: 0px;
+	border-radius: 0px;
+	background-color: #5CACEB;
+}
+
+.a1:hover span  {
+	color: #5CACEB;
+}
+
+.a1:hover .bg-color-div-2 {
+	top: 0px;
+	border-radius: 0px;
+	background-color: #5CACEB;
+}
+
+.a2:hover span  {
+	color: #fff;
+}*/
+
+
+.bg-active {
+	top: 0px;
+	border-radius: 0px;
+	background-color: #5CACEB;
+}
+.bg-active-2 {
+	border-radius: 50%;
+	top: 65px;
+}
+
+
+.bg-Un-active {
+	top: -65px;
+	border-radius: 50%;
+	background-color: #5CACEB;
+}
+.bg-Un-active-2 {
+	border-radius: 50%;
+	top: 0px;
+}
